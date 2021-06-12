@@ -13,6 +13,8 @@
 		CE864B97263BFDB40057A371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE864B95263BFDB40057A371 /* Main.storyboard */; };
 		CE864B99263BFDB50057A371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE864B98263BFDB50057A371 /* Assets.xcassets */; };
 		CE864B9C263BFDB50057A371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE864B9A263BFDB50057A371 /* LaunchScreen.storyboard */; };
+		CE864BA5263C086F0057A371 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE864BA4263C086F0057A371 /* Button.swift */; };
+		CE864BB1263C15750057A371 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE864BB0263C15750057A371 /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE864B98263BFDB50057A371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE864B9B263BFDB50057A371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE864B9D263BFDB50057A371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE864BA4263C086F0057A371 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		CE864BB0263C15750057A371 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CE864B91263BFDB40057A371 /* SceneDelegate.swift */,
 				CE864B93263BFDB40057A371 /* ViewController.swift */,
 				CE864B95263BFDB40057A371 /* Main.storyboard */,
+				CE864BA4263C086F0057A371 /* Button.swift */,
+				CE864BB0263C15750057A371 /* Label.swift */,
 				CE864B98263BFDB50057A371 /* Assets.xcassets */,
 				CE864B9A263BFDB50057A371 /* LaunchScreen.storyboard */,
 				CE864B9D263BFDB50057A371 /* Info.plist */,
@@ -98,6 +104,7 @@
 				TargetAttributes = {
 					CE864B8B263BFDB40057A371 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -138,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE864B94263BFDB40057A371 /* ViewController.swift in Sources */,
+				CE864BB1263C15750057A371 /* Label.swift in Sources */,
 				CE864B90263BFDB40057A371 /* AppDelegate.swift in Sources */,
 				CE864B92263BFDB40057A371 /* SceneDelegate.swift in Sources */,
+				CE864BA5263C086F0057A371 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2PB24P2XJ;
 				INFOPLIST_FILE = ChangeColor/Info.plist;
@@ -295,6 +305,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivory.ChangeColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2PB24P2XJ;
 				INFOPLIST_FILE = ChangeColor/Info.plist;
